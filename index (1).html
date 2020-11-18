@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style(1).css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Gokul M</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#travel">TRAVEL</a></li>
+                <li><a href="#movies">MOVIES</a></li>
+                <li><a href="#environment">NATURE</a></li>
+                <li><a href="#books">BOOKS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!--
+Start coding from here
+-->
+    <div class="container">
+        <div class="page-header">
+            <h2 class="text-capitalize">places must visit</h2>
+        </div>
+        <center>
+            <div class="travel-mainDiv">
+                <img class="img-responsive" src="kerala.jpeg">
+                <h4 class="text-capitalize"><kbd>kerala</kbd></h4>
+                <hr>
+
+                <h5 class="text-success text-left text-capitalize"> my favourite place is kerala</h5>
+                <p class="text-muted text-left">kerala is a costal region in the south of india. it is known for itsfood and coconuts.people there like drinking coconut water.</p>
+            </div>
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="movies">
+                <h2 class="text-capitalize">movies must watch</h2>
+            </div>
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame"> <span class="glyphicon glyphicon-film"></span> Avengers Endgame<i class="fa fa-sort-desc"></i> </div>
+            <div id="avengers_endgame" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img src="movie1.jpeg" class="img-responsive img-thumbnail"> </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                    <h5 class="text-success text-left text-capitalize">Excellent film to culminate MCU ride <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> </h5>
+                    <p>this mvie is awsome i enjoyed it you should see it</p>
+                </div>
+            </div>
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="environment">
+                <h2 class="text-capitalize">news about environment</h2>
+            </div>
+
+            <ul>
+
+                <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                    <h4> benefits of nature</h4>
+                    <img src="download.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                        Being in nature, or even viewing scenes of nature, reduces anger, fear, and stress and increases pleasant feelings. Exposure to nature not only makes you feel better emotionally, it contributes to your physical wellbeing, reducing blood pressure, heart rate, muscle tension, and the production of stress hormones.
+                    </p>
+                </li>
+                <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                    <h4> global warming impacts nature</h4>
+                    <img src="download%20(1).jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <p>
+                        Ecosystems: Global warming stresses ecosystems through temperature rises, water shortages, increased fire threats, drought, weed and pest invasions, intense storm damage and salt invasion, just to name a few. Some of Australia's great natural icons, such as the Great Barrier Reef, are already threatened.
+                    </p>
+                </li>
+            </ul>
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="books">
+                <h2 class="text-capitalize">books</h2>
+
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <h3>bill gates</h3>
+                    <h4>
+                        <mark class="header_entrepreneur">
+                            <i>
+                                <sup><i class="fa fa-quote-left"></i></sup>
+                                Reading is still the main way that i both learn new things and test my understanding.
+                                <sup><i class="fa fa-quote-right"></i></sup>
+                            </i>
+                        </mark>
+                    </h4>
+                </div>
+
+                <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="text-capitalize">list of books</h2>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#First_Space_Encyclopaedia">
+                    <img src="s1.jpg" class="img-responsive">
+                    <hr>
+                    <p class="text-primary">First Space Encyclopaedia</p>
+                </div>
+
+                <div class="modal fade" id="First_Space_Encyclopaedia">
+                    <div class="modal-dialog">
+                        <!--Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">First Space Encyclopaedia</h4>
+                            </div>
+
+                            <div class="modal-body">
+                                <img src="s1.jpg" class="img-responsive img_modal">
+                                <p class="p_modal">it is a good book regarding about space and travel.<br>
+                                    <a href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_6?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-6"><b>BEST BUY LINK</b></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+            </div>
+
+            <section id="contact">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150162.1366949244!2d76.84030750763068!3d8.503014600795344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbb805bbcd47%3A0x15439fab5c5c81cb!2sThiruvananthapuram%2C%20Kerala!5e0!3m2!1sen!2sin!4v1605703096449!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+                <div class="contact_1">
+
+                    <a href="mailto:my@gmail.com?Subject=Hi">
+                        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+                    </a>
+
+                    <a href="#">
+                        <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+                    </a>
+                </div>
+            </section>
+        </center>
+    </div>
+</body></html>
